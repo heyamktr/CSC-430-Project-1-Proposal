@@ -1,0 +1,26 @@
+{
+  "file1.txt": {
+    "user_id": "u456",
+    "user_file": "D:\\A\\sem4\\CSC 430 - Computer Security\\project1\\CSC-430-Project-1-Proposal\\clicker_game_encryption\\user_files\\file1.txt",
+    "encrypted_copy": "D:\\A\\sem4\\CSC 430 - Computer Security\\project1\\CSC-430-Project-1-Proposal\\clicker_game_encryption\\encrypted_files\\file1.txt.encrypted",
+    "key_file": "D:\\A\\sem4\\CSC 430 - Computer Security\\project1\\CSC-430-Project-1-Proposal\\clicker_game_encryption\\key_files\\file1.txt.key",
+    "uploaded_to_google_sheet": true,
+    "upload_message": "Key already synced to Google Sheet."
+  },
+  "file2.txt": {
+    "user_id": "u456",
+    "user_file": "D:\\A\\sem4\\CSC 430 - Computer Security\\project1\\CSC-430-Project-1-Proposal\\clicker_game_encryption\\user_files\\file2.txt",
+    "encrypted_copy": "D:\\A\\sem4\\CSC 430 - Computer Security\\project1\\CSC-430-Project-1-Proposal\\clicker_game_encryption\\encrypted_files\\file2.txt.encrypted",
+    "key_file": "D:\\A\\sem4\\CSC 430 - Computer Security\\project1\\CSC-430-Project-1-Proposal\\clicker_game_encryption\\key_files\\file2.txt.key",
+    "uploaded_to_google_sheet": true,
+    "upload_message": "Key already synced to Google Sheet."
+  },
+  "file3.txt": {
+    "user_id": "u456",
+    "user_file": "D:\\A\\sem4\\CSC 430 - Computer Security\\project1\\CSC-430-Project-1-Proposal\\clicker_game_encryption\\user_files\\file3.txt",
+    "encrypted_copy": "D:\\A\\sem4\\CSC 430 - Computer Security\\project1\\CSC-430-Project-1-Proposal\\clicker_game_encryption\\encrypted_files\\file3.txt.encrypted",
+    "key_file": "D:\\A\\sem4\\CSC 430 - Computer Security\\project1\\CSC-430-Project-1-Proposal\\clicker_game_encryption\\key_files\\file3.txt.key",
+    "uploaded_to_google_sheet": true,
+    "upload_message": "Key already synced to Google Sheet."
+  }
+}

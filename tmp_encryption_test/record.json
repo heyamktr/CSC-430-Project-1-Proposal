@@ -1,0 +1,23 @@
+{
+  "dummy1.txt": {
+    "user_file": "tmp_encryption_test\\user_files\\dummy1.txt",
+    "encrypted_copy": "tmp_encryption_test\\encrypted_files\\dummy1.txt.encrypted",
+    "key_file": "tmp_encryption_test\\key_files\\dummy1.txt.key",
+    "uploaded_to_google_sheet": true,
+    "upload_message": "mock stored dummy1.txt"
+  },
+  "dummy2.txt": {
+    "user_file": "tmp_encryption_test\\user_files\\dummy2.txt",
+    "encrypted_copy": "tmp_encryption_test\\encrypted_files\\dummy2.txt.encrypted",
+    "key_file": "tmp_encryption_test\\key_files\\dummy2.txt.key",
+    "uploaded_to_google_sheet": true,
+    "upload_message": "mock stored dummy2.txt"
+  },
+  "dummy3.txt": {
+    "user_file": "tmp_encryption_test\\user_files\\dummy3.txt",
+    "encrypted_copy": "tmp_encryption_test\\encrypted_files\\dummy3.txt.encrypted",
+    "key_file": "tmp_encryption_test\\key_files\\dummy3.txt.key",
+    "uploaded_to_google_sheet": true,
+    "upload_message": "mock stored dummy3.txt"
+  }
+}

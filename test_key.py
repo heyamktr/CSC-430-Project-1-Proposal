@@ -1,21 +1,14 @@
-import requests
+from sheet_key_store import DEFAULT_USER_ID, fetch_key
 
-url = "https://script.google.com/macros/s/AKfycbxIfogM5dbClbpDSyYL5rhMVuxeK1gBv-h4qHzlk5p8IN0lMULbmlUUJWOlgONzBbkOzw/exec"
+result, key, message = fetch_key(
+    file_name="file2.txt",
+    user_id=DEFAULT_USER_ID,
+)
 
-params = {
-    "user_id": "u456",
-    "file_name": "file2.txt"
-}
+print("Result:", result)
+print("Message:", message)
 
-response = requests.get(url, params=params)
-
-print("Status code:", response.status_code)
-print("Response text:", response.text)
-
-data = response.json()
-
-if data["status"] == "success":
-    key = data["key"]
+if result == "success":
     print("Key found:", key)
 else:
-    print("Error:", data["message"])
+    print("Error:", message)
