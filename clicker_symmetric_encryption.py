@@ -80,6 +80,23 @@ def encrypt_file(file_path, key_text):
     return encrypted_file
 
 
+def decrypt_file(file_name, key_text):
+    record = load_record()
+    encrypted_path = None
+
+    if file_name in record:
+        encrypted_path = Path(record[file_name]["encrypted_copy"])
+    else:
+        encrypted_path = ENCRYPTED_FILES / f"{file_name}.encrypted"
+
+    if not encrypted_path.exists():
+        raise FileNotFoundError(f"Encrypted file not found for {file_name}.")
+
+    cipher = Fernet(key_text.encode())
+    decrypted_content = cipher.decrypt(encrypted_path.read_bytes())
+    return decrypted_content.decode("utf-8")
+
+
 def sync_file(file_name, user_id=None, force_upload=False):
     ensure_directories()
 

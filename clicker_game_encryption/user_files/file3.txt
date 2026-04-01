@@ -1,0 +1,1 @@
+This is the protected file with the highest cost.
