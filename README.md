@@ -17,25 +17,6 @@ user_id | file_name | key | status | progress | timestamp
 
 ---
 
-## 🌐 Web App URL
-
-Replace in both Python files:
-
-YOUR_WEB_APP_URL
-
----
-
-## ⚙️ Setup (Do this once)
-
-1. Open Google Sheet → Extensions → Apps Script  
-2. Make sure both `doGet` and `doPost` exist  
-3. Deploy as Web App:
-   - Execute as: Me
-   - Access: Anyone  
-4. Copy the Web App URL  
-
----
-
 ## 🐍 Install dependencies
 
 Run once:
