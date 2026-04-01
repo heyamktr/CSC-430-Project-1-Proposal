@@ -9,7 +9,7 @@ This module handles storing and retrieving encryption keys using:
 
 ## 📊 Google Sheet
 
-Link: [PASTE YOUR GOOGLE SHEET LINK HERE]
+Link: [(https://docs.google.com/spreadsheets/d/1TTR2chLpBpXfH6aXWID1bqVE6L5BP574UCzlMUK99cU/edit?usp=sharing)]
 
 Required columns (do not change order):
 
